@@ -1,0 +1,52 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 2em auto;
+  background: #3a3938;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(70, 43, 43, 0.067);
+}
+h1 {
+  text-align: center;
+  color: #afa1af;
+}
+.overview {
+  margin-bottom: 1.5em;
+  background: #7e6969;
+  padding: 1em;
+  border-radius: 6px;
+}
+.goal-form, .deposit-form {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.goal-form input, .deposit-form input, .deposit-form select {
+  flex: 1 1 120px;
+  padding: 0.5em;
+  border: 1px solid #661212;
+  border-radius: 4px;
+}
+.goal-form button, .deposit-form button {
+  padding: 0.5em 1.5em;
+}
+.goal-item {
+  border: 1px solid #e5e7eb;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+  background: #d1dae2;
+}
+.goal-actions {
+  margin-top: 0.5em;
+}
+.status {
+  margin-left: 1em;
+  font-weight: bold;
+}
+.status.complete { color: green; }
+.status.warning { color: orange; }
+.status.overdue { color: red; }
